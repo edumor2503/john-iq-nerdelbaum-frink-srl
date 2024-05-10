@@ -43,7 +43,7 @@ body {
   width: 200 px;
 }
 .jf_cont_sec_1_link hr{
-  border-top: 3px solid #333;
+  border-top: 1px solid #333;
 }
 
 #galeria col-lg-4 {
@@ -62,19 +62,33 @@ body {
   border: 5px solid white;
 }
 .footer {
-    width: 100px;
-    /* otras propiedades del footer */
-}
+  background-color: rgb(16, 44, 87); 
+  color: white; 
+  padding: 20px 0; 
+  width: 100%;"
+ }
 .logo {
   margin-top: 0;
-  width: 200px;
-  height: 200px;
+  width: 50px;  /* Cambia esto al tamaño que desees */
+  height: 50px; /* Esto mantendrá la proporción del logo */
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  outline: none;
+  box-shadow: none;
 }
 
+.newsletter-form {
+  background-color: rgb(16, 44, 87); 
+  padding: 5%;
+  color: white;
+  font-weight: bold;
+}
+.newsletter-form input {
+  color: white;
+  font-weight: bold;
+}
 .jf_cont_footer{
   background-color: rgb(16, 44, 87);
   padding: 10%;
@@ -102,7 +116,7 @@ body {
 }
 
 .whatsapp-text {
-  margin-right: 10px; /* Ajusta este valor según tus necesidades */
+  margin-right: 10px; 
 }
 .align-with-icon {
   display: inline-block;
