@@ -19,7 +19,6 @@ header("Location:contactos.html");
 
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -29,17 +28,11 @@ header("Location:contactos.html");
     <title>Untitled Document</title>
     <!-- Bootstrap -->
 	<!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
-	<link href="css/bootstrap-3.3.7.css" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="ext/bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/estilos_contactos.css">
     <link rel="stylesheet" href="style.css">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
   </head>
   <body>
   
