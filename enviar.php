@@ -14,20 +14,30 @@ $contenido= "Nombre: " . $nombre . "\nEmpresa: " . $empresa . "\nCargo: " . $car
 
 mail($destino, "Contacto", $contenido);
 
+
+
+?>
+
+//
 header("Location:contactos.html");
 
 
 
-?>
-<!DOCTYPE html>
-<html lang="en">
+
+
+
+
+
+
+
+<!-- <html lang="en">
+  <!DOCTYPE html>
   <head>
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Untitled Document</title>
-    <!-- Bootstrap -->
-	<!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
+    
     <link rel="stylesheet" href="ext/bootstrap/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/estilos_contactos.css">
@@ -82,11 +92,14 @@ header("Location:contactos.html");
   
   
   
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+
 	<script src="js/jquery-1.11.2.min.js"></script>
 
-	<!-- Include all compiled plugins (below), or include individual files as needed --> 
-	<!-- <script src="js/bootstrap.js"></script> -->
+	
   <script src="js/bootstrap-3.3.7.js"></script>
 </body>
-</html>
+</html> 
+ -->
+ 
+
+
