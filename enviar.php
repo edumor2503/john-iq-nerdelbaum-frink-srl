@@ -1,13 +1,16 @@
 
 
 <?php
-$destino= "gbarboza.es@gmail.com";
+$destino= "eduardomoreno2503@gmail.com";
 $nombre= $_POST["nombre"];
+$nombre= $_POST["empresa"];
+$nombre= $_POST["cargo"];
+$nombre= $_POST["rubro"];
 $correo= $_POST["correo"];
 $telefono= $_POST["telefono"];
 $mensaje= $_POST["mensaje"];
 
-$contenido= "Nombre: " . $nombre . "\nCorreo: " . $correo . "\nTeléfono: " .$telefono . "\nMensaje: " . $mensaje;
+$contenido= "Nombre: " . $nombre . "\nEmpresa: " . $empresa . "\nCargo: " . $cargo .  "\nRubro: " . $rubro . "\nCorreo: " . $correo . "\nTeléfono: " .$telefono . "\nMensaje: " . $mensaje;
 
 mail($destino, "Contacto", $contenido);
 
