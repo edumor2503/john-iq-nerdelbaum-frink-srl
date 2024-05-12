@@ -1,7 +1,7 @@
 * {
     margin:0;
     padding:0;
-    box-sizing: border-box;
+    box-sizing: border-box:
 }
 body {
   font-family: Jersey 25, sans-serif;
@@ -14,8 +14,6 @@ body {
 }
 .navbar-fijo {
   position: fixed;
-  top: 0;
-  width: 200%;
   background-color: rgb(218, 192, 163, 0.7) !important;
  
 }
@@ -65,12 +63,12 @@ body {
   background-color: rgb(16, 44, 87); 
   color: white; 
   padding: 20px 0; 
-  width: 100%;
+  width: 100%;"
  }
 .logo {
   margin-top: 0;
-  width: 50px;  /* Cambia esto al tamaño que desees */
-  height: 50px; /* Esto mantendrá la proporción del logo */
+  width: 50px;  
+  height: 50px; 
   text-align: center;
   display: flex;
   justify-content: center;
