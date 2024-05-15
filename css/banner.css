@@ -112,7 +112,7 @@
     padding: 10%;
     margin-top: 200px;
     margin-bottom: 100px;
-    color: #fff; 
+    color: #fff; /* Color de texto blanco */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
  }
 
@@ -129,7 +129,7 @@
 }
 
 .col {
-  overflow: auto; 
+  overflow: auto; /* Añade barras de desplazamiento si el contenido desborda */
 }
   .jf_cont_banner_sec3_.row{
     background-color: rgb(16, 44, 87,0.7);
