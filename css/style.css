@@ -124,8 +124,6 @@
 
 
 }
-
-
 .footer {
   background-color: rgb(16, 44, 87); 
   color: white; 
@@ -170,6 +168,12 @@
 .align-right {
   float: right;
 }
+
+
+.contact-section {
+  padding-left: 20px;
+}
+
 
 .btn-wsp{
   position:fixed;
