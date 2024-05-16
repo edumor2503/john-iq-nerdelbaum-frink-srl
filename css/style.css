@@ -83,6 +83,16 @@
   width: 100%;
 }
 
+
+.title {
+ 
+  font-size: 2em;
+}
+
+.description {
+ 
+  font-size: 1em;
+}
 .video-container {
   position: relative;
   width: 100%;
