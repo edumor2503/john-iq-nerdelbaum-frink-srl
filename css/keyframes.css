@@ -56,7 +56,18 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  #ecommerce , #diseno , #brandig {
+    margin-left: 0;
+    width: 100%;
+  }
+}
 
+@media screen and (max-width: 600px) {
+  #ecommerce, #diseno, #brandig {
+    margin-right: 0;
+  }
+}
 
 @media screen and (max-width: 600px) {
   #marketing .overlay-text , #moviles .overlay-text {
@@ -74,5 +85,10 @@
 @media screen and (min-width: 1025px) {
   #marketing .overlay-text ,  #moviles .overlay-text {
       font-size: 22px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contact-section {
+    padding-left: 0;
   }
 }
