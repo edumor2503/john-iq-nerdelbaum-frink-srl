@@ -24,11 +24,13 @@
   padding: 5px; 
   text-shadow: 2px 2px 4px #000000; 
 }
+
 .navbar-fijo {
   position: fixed;
   background-color: rgb(218, 192, 163, 0.7) !important;
- 
+
 }
+
 .nav-link , .navbar-brand {
   font-size: 20px; 
   color: black; 
@@ -75,7 +77,8 @@
   border: 5px solid white;
 }
 
-#marketing , #moviles {
+#marketing , #moviles ,#serv {
+  margin-bottom: 50px; 
   width: 100%;
 }
 
@@ -193,11 +196,4 @@
 }
 .btn-wsp:hover{
   background: #20ba5a;
-}
-@media only screen and (min-width:320px) and (max-width:768px){
-  .btn-wsp{
-      width:63px;
-      height:63px;
-      line-height: 66px;
-}
 }
