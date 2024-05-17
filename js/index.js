@@ -1,3 +1,5 @@
+import fetch from 'node-fetch';
+
 document.getElementById('boton').addEventListener('click', function(event) {
   event.preventDefault();
 
@@ -18,7 +20,7 @@ document.getElementById('boton').addEventListener('click', function(event) {
       telefono: telefono,
       mensaje: mensaje
   };
-/*
+
   fetch('/send-email', {
       method: 'POST',
       headers: {
@@ -34,6 +36,3 @@ document.getElementById('boton').addEventListener('click', function(event) {
       console.error('Error:', error);
   });
 });
-
-*/
-
