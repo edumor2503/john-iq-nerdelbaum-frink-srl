@@ -1,2 +1,2 @@
 # john-iq-nerdelbaum-frink-srl
-Nuevo Proyecto
+Diseño de Sistemas - Ecommerce - Marketing Digital
