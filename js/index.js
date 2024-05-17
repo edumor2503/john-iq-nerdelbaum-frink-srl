@@ -37,3 +37,21 @@ document.getElementById('boton').addEventListener('click', function(event) {
       console.error('Error:', error);
   });
 });
+
+document.querySelector('form').addEventListener('submit', function(e) {
+    var isValid = true;
+    var inputs = this.querySelectorAll('input[required]');
+
+    for (var i = 0; i < inputs.length; i++) {
+        if (!inputs[i].value) {
+            isValid = false;
+            alert('Por favor, rellene el campo: ' + inputs[i].name);
+            break;
+        }
+    }
+
+    if (!isValid) {
+        e.preventDefault(); // prevent form submission
+    }
+});
+
