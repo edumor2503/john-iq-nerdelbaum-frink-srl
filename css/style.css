@@ -1,16 +1,16 @@
 * {
     margin:0;
     padding:0;
-    box-sizing: border-box:
+    box-sizing: border-box;
 }
 
 .body {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: normal; 
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+   font-variation-settings: normal;
+  width: 100%; 
 }
 
 #subtitle {
@@ -128,7 +128,7 @@
   background-color: rgb(16, 44, 87); 
   color: white; 
   padding: 20px 0; 
-  width: 100%;"
+  width: 100%;
  }
 .logo {
   margin-top: 0;
