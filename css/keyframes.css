@@ -57,14 +57,14 @@
 }
 
 @media screen and (max-width: 768px) {
-  #ecommerce , #diseno , #brandig {
+  #ecommerce , #diseno , #brandig , #contacto {
     margin-left: 0;
     width: 100%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  #ecommerce, #diseno, #brandig {
+  #ecommerce, #diseno, #brandig ,  #contacto {
     margin-right: 0;
   }
 }
@@ -86,9 +86,31 @@
   #marketing .overlay-text ,  #moviles .overlay-text {
       font-size: 22px;
   }
-}
-@media screen and (max-width: 600px) {
-  .contact-section {
-    padding-left: 0;
+
+ 
+@media only screen and (max-width: 600px) {
+ 
+  #serv {
+    margin-bottom: 20px; 
   }
+
+  #marketing {
+    margin-top: 20px; 
+  }
+  
+  #moviles{
+    margin-top: 20px; 
+  }
+
+  #ecommerce{
+    margin-top: 20px; 
+  }
+}
+
+@media only screen and (min-width:320px) and (max-width:768px){
+  .btn-wsp{
+      width:63px;
+      height:63px;
+      line-height: 66px;
+}
 }
