@@ -55,7 +55,3 @@ document.querySelector('form').addEventListener('submit', function(e) {
     }
 });
 
-document.querySelector('form[action="subscribirse"]').addEventListener('submit', function(event) {
-    event.preventDefault();
-    window.alert('Gracias por subscribirse a nuestro canal');
-});
