@@ -55,3 +55,16 @@ document.querySelector('form').addEventListener('submit', function(e) {
     }
 });
 
+document.getElementById('contacto').addEventListener('submit', function(event) {
+    // Prevenir la acción por defecto del formulario (enviar los datos)
+    event.preventDefault();
+
+    // Mostrar el mensaje de agradecimiento
+    document.getElementById('thankYouMessage').style.display = 'block';
+});
+
+document.querySelector('form[action="subscribirse"]').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Gracias por suscribirte a nuestro newsletter!');
+    location.reload();
+});
