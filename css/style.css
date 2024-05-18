@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 .body {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -12,15 +11,6 @@
   font-style: normal;
    font-variation-settings: normal;
   width: 100%; 
-}
-
-.open-sans-uniquifier {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }
 
 #subtitle {
@@ -207,4 +197,3 @@
 .btn-wsp:hover{
   background: #20ba5a;
 }
-
