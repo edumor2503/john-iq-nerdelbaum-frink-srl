@@ -51,16 +51,47 @@ document.querySelector('form').addEventListener('submit', function(e) {
     }
 
     if (!isValid) {
-        e.preventDefault(); // prevent form submission
+        e.preventDefault(); 
     }
 });
 
 document.getElementById('contacto').addEventListener('submit', function(event) {
-    // Prevenir la acción por defecto del formulario (enviar los datos)
+    // Prevenir la acción por defecto del formulario 
     event.preventDefault();
 
     // Mostrar el mensaje de agradecimiento
     document.getElementById('thankYouMessage').style.display = 'block';
+});
+
+
+
+
+
+document.getElementById('boton2').addEventListener('click', function(event) {
+    event.preventDefault();
+  
+    var email = document.getElementsByName('email')[0].value;
+    var comment = document.getElementsByName('comment')[0].value; // Obtén el valor del comentario
+     
+    var data = {
+        email: email,
+        comment: "suscripcion a newsletter"
+    };
+  
+    fetch('/send-email', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+    })
+    .then((response) => response.json())
+    .then((data) => {
+        console.log('Success:', data);
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+    });
 });
 
 document.querySelector('form[action="subscribirse"]').addEventListener('submit', function(event) {
