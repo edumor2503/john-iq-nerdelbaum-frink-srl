@@ -197,3 +197,40 @@
 .btn-wsp:hover{
   background: #20ba5a;
 }
+
+
+.w-100 {
+  width: 100%;
+  background-color:  rgb(16, 44, 87);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.btn-light {
+  color: #333;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+  width: 40%;
+  font-weight: bold;
+}
+
+.sus {
+  font-size: 1.5em;
+  text-align: center
+}
