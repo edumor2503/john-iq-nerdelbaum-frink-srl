@@ -124,9 +124,14 @@
   margin: left;
   padding: 10px; 
   box-sizing: border-box; 
-
-
 }
+
+.map{
+  width: 90%; 
+  border: 2px solid #000;
+  }
+
+ 
 .footer {
   background-color: rgb(16, 44, 87); 
   color: white; 
