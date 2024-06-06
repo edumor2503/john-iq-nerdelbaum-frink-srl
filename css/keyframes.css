@@ -115,3 +115,25 @@
 }
 }
 
+
+
+@media (min-width: 768px) {
+  #registro form {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #registro label, 
+  #registro input {
+    width: 48%; 
+  }
+}
+
+
+@media (min-width: 1024px) {
+  #registro label, 
+  #registro input {
+    width: 30%; 
+  }
+}
