@@ -18,6 +18,63 @@
   display: block;
 }
 
+
+
+#login {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+#login form {
+  width:500px; 
+  margin: auto; 
+}
+
+label, input {
+  margin: 0;
+  padding: 0;
+}
+
+
+.inicio {
+  background-color: #102C57;
+  color: white;
+  border-radius: 10px;
+   
+}
+.center-text {
+  text-align: center;
+}
+
+
+#registro {
+  display: center;
+  justify-content: center;
+  align-items: center;
+  height: 130vh;
+}
+
+
+#registro form {
+  margin-left: 5px; 
+  width:500px; 
+  margin: auto; 
+}
+
+#registro label, 
+#registro input {
+  width: 100%;
+}
+
+label {
+  margin-bottom: 0,1px; 
+}
+
 .resaltado {
   color: black; 
   font-size:20px; 
@@ -25,9 +82,13 @@
   text-shadow: 2px 2px 4px #000000; 
 }
 
+
 .navbar-fijo {
+  display: flex;
+  justify-content: space-between;
   position: fixed;
   background-color: rgb(218, 192, 163, 0.7) !important;
+  width: 100%;
 
 }
 
@@ -37,11 +98,28 @@
   text-shadow: 2px 2px 4px #000000; 
 }
 
+
+.nav-link[href="#contacto"] {
+  margin-right: 20px; 
+}
+
+.nav-link[href="#login"] {
+  margin-left: 5px; 
+
+}
 .jf_navbar {
   background-color: rgb(218, 192, 163, 0.7) !important;
 }
 .jf_navbar_div , .jf_nabar_ul {
   background-color: transparent !important;
+}
+
+.user-icon {
+  height: 25px;
+  width: 25px;
+  border-radius: 0;
+  margin-right: 5px;
+  
 }
 
 .jf_section_1 {
@@ -125,12 +203,6 @@
   padding: 10px; 
   box-sizing: border-box; 
 }
-/*
-.map{
-  width: 90%; 
-  border: 2px solid #000;
-  }
-  */
 
 .map-responsive {
     overflow:hidden;
@@ -228,6 +300,10 @@
   border-radius: 5px;
 }
 
+.enviar {
+  border-radius: 10px;
+}
+
 .btn {
   display: inline-block;
   padding: 6px 12px;
@@ -240,7 +316,7 @@
   vertical-align: middle;
   cursor: pointer;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 5px;
 }
 
 .btn-light {
@@ -255,3 +331,11 @@
   font-size: 1.5em;
   text-align: center
 }
+
+.container-formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130vh; 
+}
+
