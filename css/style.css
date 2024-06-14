@@ -21,13 +21,27 @@
 
 
 #login {
-  margin-bottom: 60px;
+ 
+  margin-bottom: 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
+
+
+
+#acceso{
+  left: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+
+
 
 .checkbox-container {
   align-self: flex-start;
@@ -392,15 +406,6 @@ label {
   transition: 0.4s;
 }
 
-
-#login {
-  
-  left: -10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 70vh;
-}
 
 
 
