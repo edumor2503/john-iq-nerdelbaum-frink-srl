@@ -440,48 +440,47 @@
   </footer>
 </section>
 
-<section id="login">
-	<div class="row">
-		<div class="col-lg-4 col-md-6 col-sm-12 px-0">
-			<div class="containerform">
-				<div class="form-box">
-					<div class="button-box">
-						<div id="elegir"></div>
-							<button type="button" class="toggle-btn" onclick="login()"><strong>Iniciar Sesion</strong></button>
-							<button type="button" class="toggle-btn" onclick="registrar()"><strong>Registrarse</strong></button>
-							<form id="login" class="input-group">
-								<input type="text" class="input-campo" placeholder="Usuario (*)" required>
-								<input type="password" class="input-campo" placeholder="Contrasena (*)" required>
-								<label for="rememberUser" class="align-left">
-									<input type="checkbox" id="rememberUser" name="rememberUser">
-											Recordar Usuario
-								</label>
-									<button type="submit" class="submit-btn"><strong>Acceder</strong></button>
-									<p>(*) Campos Obligatorios</p>
-							</form>
-							<form id="registrar" class="input-group">
-								<input type="text" class="input-field" placeholder="Usuario (*)" required>
-								<input type="text" class="input-field" placeholder="Nombre y Apellido (*)" required>
-								<input type="text" class="input-field" placeholder="Empresa">
-								<input type="text" class="input-field" placeholder="Cargo">
-								<input type="password" class="input-field" placeholder="Contrasena (*)" required>
-								<input type="password" class="input-field" placeholder="Repetir Contrasena (*)" required>
-
-                <!-- <label for="rememberUser" class="align-left">
-									<input type="checkbox" id="rememberUser" name="rememberUser">
-											Acepto Terminos y Condiciones
-								</label> -->
+<section>
+	<h2>Registro</h2>
+	<div id="login">
+		<div class="row">
+			<div class="col-lg-4 col-md-6 col-sm-12 px-0">
+				<div class="containerform">
+					<div class="form-box">
+						<div class="button-box">
+							<div id="elegir"></div>
+								<button type="button" class="toggle-btn" onclick="login()"><strong>Iniciar Sesion</strong></button>
+								<button type="button" class="toggle-btn" onclick="registrar()"><strong>Registrarse</strong></button>
+								<form id="acceso" class="input-group">
+									<input type="text" class="input-campo" placeholder="Usuario (*)" required>
+									<input type="password" class="input-campo" placeholder="Contrasena (*)" required>
+									<label for="rememberUser" class="align-left">
+									  <input type="checkbox" id="rememberUser" name="rememberUser">
+										  Recordar Usuario
+									</label>
+									  <button type="submit" class="submit-btn"><strong>Acceder</strong></button>
+									  <p>(*) Campos Obligatorios</p>
+								</form>
 								
-								<button type="submit" class="submit-btn"><strong>Registrar</strong></button>
-                <p>(*) Campos Obligatorios</p>
-							</form>
-              
-					</div>
+								<form id="registrar" class="input-group">
+									<input type="text" class="input-field" placeholder="Usuario (*)" required>
+									<input type="text" class="input-field" placeholder="Nombre y Apellido (*)" required>
+									<input type="text" class="input-field" placeholder="Empresa">
+									<input type="text" class="input-field" placeholder="Cargo">
+									<input type="password" class="input-field" placeholder="Contrasena (*)" required>
+									<input type="password" class="input-field" placeholder="Repetir Contrasena (*)" required>
+										
+									<button type="submit" class="submit-btn"><strong>Registrar</strong></button>
+									<p>(*) Campos Obligatorios</p>
+								</form>
+						</div>
+					</div>    
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
+
 
 
 <!-- Scripts -->
