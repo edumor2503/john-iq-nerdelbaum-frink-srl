@@ -70,8 +70,7 @@ document.getElementById('boton2').addEventListener('click', function(event) {
     event.preventDefault();
   
     var email = document.getElementsByName('email')[0].value;
-    var comment = document.getElementsByName('comment')[0].value; // Obtén el valor del comentario
-     
+    var comment = document.getElementsByName('comment')[0].value; 
     var data = {
         email: email,
         comment: "suscripcion a newsletter"
@@ -99,3 +98,18 @@ document.querySelector('form[action="subscribirse"]').addEventListener('submit',
     location.reload();
 });
 
+var x = document.getElementById("login");
+var y = document.getElementById("registrar");
+var z = document.getElementById("elegir");
+
+function login(){
+    x.style.left = "50px";
+    y.style.left = "400px";
+    z.style.left = "0px";
+}
+
+function registrar(){
+    x.style.left = "-400px";
+    y.style.left = "-50px";
+    z.style.left = "120px";
+}
