@@ -113,3 +113,10 @@ function registrar(){
     y.style.left = "-50px";
     z.style.left = "120px";
 }
+
+// JavaScript: Ajustar el tamaño del <ul> al de la imagen
+window.onload = function() {
+    var logoWidth = document.querySelector('.logo').offsetWidth; // Obtener el ancho de la imagen
+    var servicesList = document.querySelector('.services-list'); // Obtener el <ul>
+    servicesList.style.width = logoWidth + 'px'; // Ajustar el ancho del <ul> al de la imagen
+};
