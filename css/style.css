@@ -114,6 +114,12 @@ margin-right: 5px;
 .jf_section_1 {
 padding: 10%;
 }
+.jf_section_2 {
+  border: none; 
+  height: 2px; 
+  background-color: white; 
+}
+
 .jf_cont_sec_2_link{
 padding: 5%;
 width: 200 px;
@@ -626,4 +632,12 @@ bottom: 64px;
 position: absolute;
 }
 
+.linea-footer {
+  border-top: 1px solid white; 
+  width: 100%; 
+  padding-top: 10px;
+  font-weight: bold;
+  color: white;
+ 
+}
 
