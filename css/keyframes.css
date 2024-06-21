@@ -162,3 +162,13 @@
     margin: auto;
   }
 }
+
+/* CSS */
+@media (max-width: 768px) {
+  .row-fila .col-lg-4, .row-fila .col-md-4, .row-fila .col-sm-4 {
+      /* Cambiar a ocupar el 100% del ancho y ajustar márgenes si es necesario */
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-bottom: 30px; /* Ajustar según sea necesario para evitar superposiciones */
+  }
+}
