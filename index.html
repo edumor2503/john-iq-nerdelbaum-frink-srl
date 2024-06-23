@@ -613,19 +613,20 @@
 								</form>
 								
 								<form id="registrar" class="input-group">
-									<input type="text" class="input-field" placeholder="Usuario (*)" required>
-									<input type="text" class="input-field" placeholder="Nombre y Apellido (*)" required>
-                  <input type="text" class="input-field" placeholder="Nro. Documento(*)" required>
-									<input type="text" class="input-field" placeholder="Empresa">
-									<input type="text" class="input-field" placeholder="Cargo">
-									<input type="password" class="input-field" placeholder="Contrasena (*)" required>
-									<label for="Aceptar" class="align-left">
-									<input type="checkbox" id="Aceptar" name="aceptarterminos">
-											Acepto Terminos y Condiciones
-									  </label>	
-									<button type="submit" class="submit-btn"><strong>Registrar</strong></button>
-									<p>(*) Campos Obligatorios</p>
-								</form>
+                  <input type="text" class="input-field" placeholder="Usuario (*)" required>
+                  <input type="text" class="input-field" placeholder="Nombre y Apellido (*)" required>
+                  <input type="text" name="email" class="input-field" placeholder="Email (*)" required> <!-- Campo de email movido aquí -->
+                  <input type="text" class="input-field" placeholder="Empresa">
+                  <input type="text" class="input-field" placeholder="Cargo">
+                  <input type="password" class="input-field" placeholder="Contrasena (*)" required>
+                  <input type="password" class="input-field" placeholder="Repetir Contrasena (*)" required>
+                  <label for="Aceptar" class="align-left">
+                      <input type="checkbox" id="Aceptar" name="aceptarterminos">
+                      Acepto Terminos y Condiciones
+                  </label>  
+                  <button type="submit" class="submit-btn"><strong>Registrar</strong></button>
+                  <p>(*) Campos Obligatorios</p>
+              </form>
 						</div>
 					</div>    
 				</div>
