@@ -641,7 +641,27 @@ position: absolute;
 
 .icon {
   text-align: center;
-  margin-right: 20px; /* Ajusta el valor de 20px según necesites */
+  margin-right: 20px; 
   font-size: 24px;
   color: white;
+}
+
+
+.custom-alert {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(218, 192, 163,0.9);
+  border: 2px solid #000;
+  z-index: 1000; 
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.custom-alert p {
+  margin: 0;
+  padding-bottom: 60px;
 }
