@@ -612,14 +612,14 @@
 									  <p>(*) Campos Obligatorios</p>
 								</form>
 								
-								<form id="registrar" class="input-group">
+								<form id="registrar" action="" class="input-group">
                   <input type="text" class="input-field" placeholder="Usuario (*)" required>
                   <input type="text" class="input-field" placeholder="Nombre y Apellido (*)" required>
-                  <input type="text" name="email" class="input-field" placeholder="Email (*)" required> <!-- Campo de email movido aquí -->
+                  <input type="text" name="email" class="input-field" placeholder="Email (*)" required>
                   <input type="text" class="input-field" placeholder="Empresa">
                   <input type="text" class="input-field" placeholder="Cargo">
-                  <input type="password" class="input-field" placeholder="Contrasena (*)" required>
-                  <input type="password" class="input-field" placeholder="Repetir Contrasena (*)" required>
+                  <input type="password" id="password" class="input-field" placeholder="Contrasena (*)" required>
+                  <input type="password" id="confirm_password" class="input-field" placeholder="Repetir Contrasena (*)" required onblur="validatePassword()">
                   <label for="Aceptar" class="align-left">
                       <input type="checkbox" id="Aceptar" name="aceptarterminos">
                       Acepto Terminos y Condiciones
@@ -627,6 +627,10 @@
                   <button type="submit" class="submit-btn"><strong>Registrar</strong></button>
                   <p>(*) Campos Obligatorios</p>
               </form>
+              <div id="customAlert" class="custom-alert" style="display: none;">
+                  <p>Las contraseñas no coinciden</p>
+                  <button onclick="closeCustomAlert()">OK</button>
+              </div>
 						</div>
 					</div>    
 				</div>
@@ -642,6 +646,7 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="js/index.js"></script>
 <script src="js/main.js"></script>
+<script src="js/formValidation.js"></script>
 
 </body>
 
